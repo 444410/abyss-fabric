@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "abyss",
+	"version": "${version}",
+	"name": "Abyss",
+	"description": "Abyss client, ported from Forge 1.12.2 to Fabric 26.3.",
+	"authors": ["Ciruu"],
+	"license": "All-Rights-Reserved",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["me.ciruu.abyss.Abyss"]
+	},
+	"mixins": ["abyss.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

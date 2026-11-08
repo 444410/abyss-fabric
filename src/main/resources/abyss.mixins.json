@@ -1,0 +1,40 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.ciruu.abyss.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MixinCamera",
+    "MixinChatScreen",
+    "MixinClientBrandRetriever",
+    "MixinConnection",
+    "MixinDeltaTrackerTimer",
+    "MixinEntity",
+    "MixinGameRenderer",
+    "MixinHud",
+    "MixinKeyboardHandler",
+    "MixinLevel",
+    "MixinLevelRenderer",
+    "MixinLightmapRenderStateExtractor",
+    "MixinLiquidBlock",
+    "MixinLivingEntity",
+    "MixinLivingEntitySwing",
+    "MixinLocalPlayer",
+    "MixinLocalPlayerPick",
+    "MixinMinecraft",
+    "MixinMinecraftMultiTask",
+    "MixinMouseHandler",
+    "MixinMultiPlayerGameMode",
+    "MixinPlayer",
+    "MixinPlayerTabOverlay",
+    "MixinScreenEffectRenderer",
+    "accessor.GameRendererAccessor",
+    "accessor.KeyMappingAccessor",
+    "accessor.MinecraftAccessor",
+    "accessor.MultiPlayerGameModeAccessor",
+    "accessor.ServerboundMovePlayerPacketAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
